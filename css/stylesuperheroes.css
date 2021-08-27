@@ -1,0 +1,424 @@
+/*Reseto de sitio*/
+* {box-sizing:border-box;
+    padding: 0;
+    margin:0;
+    font-family: 'Roboto';
+}
+
+/* Header */
+
+/* header {border: solid red 3px; }*/
+    
+header { width: 100vw;
+
+}
+.top {padding: 2px;
+    font-size:15px;
+    line-height: 17.58px;
+    height: 38px;
+    background-color: #1CD1B0;
+    padding: 10px;
+ }
+
+.center { display: flex;
+    padding: 5px;
+    height: 101px;
+    line-height: 46.88px;
+    background-color:#00669F;
+    padding: 30px;
+    align-items: center;
+    
+ }
+ 
+ .center h1 {
+    color:#FFFFFF;
+    font-size:1.5rem;
+    font-weight: normal;
+ }
+
+.bottom {
+    background-color:#001D2D;
+    height: 40px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.bottom nav {
+ position: relative;
+ right: 5rem;
+}
+
+.bottom nav a:visited {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.bottom nav a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.bottom nav a li {
+    display: inline;
+    color: #FFFFFF;
+    margin: 0px 1rem;
+
+}
+
+/* Body */
+
+.padre {display:flex;
+    width: 100%;
+    height: calc(100vh - 230px);
+    background-color: white;
+    margin: 3px 0px;
+    justify-content: space-around; 
+align-items: center;}
+
+.caja {  
+display: flex;
+flex-flow: column;
+width: 300px;
+height: 529px;
+/* border: solid green 3px; */
+border-radius: 16px 16px 0px 0px;
+/* margin: 40px 20px 20px 20px; */
+justify-content: space-around;
+align-items: center;
+background-size: 100%;
+background-repeat: no-repeat;
+background-color:  #F3F3F3;
+box-shadow: 2px 5px 3px grey; 
+}
+
+.uno { background-image: url('../img/fondo-batman.png'); }
+
+.dos { background-image: url('../img/fondo-harley.png');}
+
+.tres { background-image: url('../img/fondo-batman.png');} 
+
+.corazon { display: flex;
+    position:relative;
+    margin: 10px;
+    top: -10px;
+    left: -110px;}
+
+h2{ 
+    font-family: "Roboto";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0em;
+    color: #000000;
+    text-align:center;
+    position: relative;
+    top: 10px;
+}
+
+
+.profile { 
+max-width:100px;
+max-height:100px;
+border-radius:100%;
+position: relative;
+top: 35px;
+}
+
+
+p {font-family: "Roboto";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18.75px;
+    letter-spacing: 0em;
+    color:#333333 ;
+    position: relative;
+    text-align: justify;
+    margin: 5px;
+    }
+
+
+.button {display: flex;
+    background-color:#00669F;
+position:relative;
+width: 128.78px;
+height: 48.52px;
+justify-content: center;
+align-items: center;
+color: #F3F3F3;
+box-shadow: 1px 3px 2px grey; 
+}
+
+
+.formlogin {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+
+}
+
+.formlogin a p{
+   
+    color: #00669F;
+}
+
+
+.formlogin h1 {
+    font-family: 'Inter';
+font-size: 72px;
+color: #333333;
+margin: 0px 0px ;
+
+position: relative;
+
+}
+
+.formlogin input {
+    height: 30px;
+    margin: 10px 0px;
+    width: 30vw
+}
+
+.formlogin button {
+    background-color:  #1CD1B0;
+    border: none;
+    border-radius: 10px;
+    margin: 20px 0px 10px 0px;
+    height: 30px;
+    color: #000000;
+    font-family: 'Karia';
+    font-weight: bold;
+    font-size: 1rem
+}
+
+.formlogin select {
+    height: 30px;
+    margin: 10px 0px;
+    width: 30vw
+}
+
+
+.formlogin p {
+   display:flex;
+  justify-content: center;
+  font-family: 'Karla';
+}
+
+.formlogin p a {
+    text-decoration: none;
+    font-family: 'Karla';
+    margin: 0px 3px
+}
+
+.formlogin p a:visited {
+    text-decoration: none;
+    color: #00669F; }
+
+
+
+.formulario {
+    background-color: #00669F;
+    border-radius: 30px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    
+}
+
+.titulo {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo h1 {font-family:'Inter';
+font-size: 2.5rem;
+color: #FBFFFD;
+font-style: normal;
+}
+
+.titulo p {
+    font-family:'Inter';
+font-size: 1rem;
+color: #FBFFFD;
+}
+
+.cuerpoform {
+    height: 70%;
+    width: 100%;
+    display: flex;
+    
+}
+
+.cuerpoform div{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-flow: column;
+    color: #FFFFFF;
+    margin: 0px 10px
+}
+
+.cuerpoform div label{
+    margin: 10px 0px
+}
+
+.cuerpoform div label input {
+    margin: 0px 5px
+}
+
+.cajita {
+    height: 3rem;
+    border-radius: 10px;
+}
+
+#especie { font-size: 1rem;
+    border-radius: 10px;
+    padding: 12px 0px;
+    color: rgba(0,0,0, 0.5 )
+}
+
+.cajagrande {
+    margin: 10px 0px 0px 0px;
+    border-radius: 10px;
+    height: 17rem;
+    /* padding: 0; */
+}
+
+ .botonanadir {
+    margin: 30px 0px 5px 0px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+     }
+
+.botonanadir button{
+    height: 40px;
+    width: 30%;
+    background-color: #1CD1B0;
+    color: #000000;
+    font-size: 1.6rem;
+    font-weight: bold;
+    font-family: 'Inter';
+    border-radius: 10px;
+
+}
+
+
+.agregar {
+    width: 82px;
+    height: 82px;
+    border-radius: 50%;
+    background-color: #00669F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.agregar a p {
+ font-size: 4rem;
+ color:#F3F3F3;
+
+}
+
+.agregar a {
+    text-decoration: none;
+}
+
+
+/* Footer */
+
+footer {
+    display: flex;
+    width:100vw;
+    height: 51px;
+    background-color:#00669F;
+    align-items: center;
+    justify-content: center;
+
+}
+
+footer div {
+       
+               color: #FFF9F9;
+               font-weight:400;
+        font-size:16px;
+        line-height: 18.75px;
+        padding: 10px;
+        
+
+}
+
+
+
+
+
+
+@media (max-height: 750px) {
+
+    .padre{ height: 800px
+    }
+
+    .formulario {
+   
+        font-size: 0.7rem
+    }
+
+    .titulo {
+        margin: -5px 0px -10px 0px;
+       
+    }
+
+
+    .titulo h1 {
+        font-size: 2rem
+    }
+
+
+   
+    #especie{
+        font-size: 0.7rem;
+        padding: 8px;
+        width:100% ;
+        
+    }
+
+    .derecha div {
+display: flex;   
+position: relative;
+top: 30px
+}
+
+.derecha div label{
+    margin: 0px 0px 0px 0px;
+   
+
+
+}
+
+
+.derecha {
+display: flex;
+flex-flow: column;
+
+ }
+
+.derecha .foto {
+    margin: 0px;
+
+    height: 2.5rem;
+    width: 100%;
+    margin: -10px 0px 15px 0px;
+}
+
+
+
+
+
+
+
+
+}

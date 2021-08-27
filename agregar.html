@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agregar</title>
+    <link href="css/stylesuperheroes.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="top">20% de descuento en todos los productos!</div>
+        <div class="center"> <img src="img/logolaptop.png">
+            <h1>Nombre Tienda
+        </div>
+        </h1>
+        <div class="bottom">
+            <nav>
+                <ul>
+                    <a href="#" target="_blank">
+                        <li>Contacto</li>
+                    </a>
+                    <a href="registro.html" target="_blank">
+                        <li>Registrarme</li>
+                    </a>
+                    <a href="login.html" target="_blank">
+                        <li>Ingresar</li>
+                    </a>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="padre">
+        <div class="formulario">
+            <form action="/#" method="POST">
+                <div class="titulo">
+                    <h1>Añadí tu super!</h1>
+                    <p>Agregá tu personaje favorito completando las opciones</p>
+                </div>
+                <div class="cuerpoform">
+                    <div class="izquierda">
+                        <label for="nombre" name="nombre"> *Nombre </label>
+                        <input class="cajita" type="text" name="nombre" id="nombre">
+                        <label for="date" name="fecha" min="01-01-1800" max="27-08-2021" value="04-26-1992"> Fecha
+                        </label>
+                        <input class="cajita" type="date" name="fecha" id="date">
+                        <textarea class="cajagrande" rows="5" cols="50"> Descripción </textarea>
+
+                    </div>
+                    <div class="derecha">
+                        <label for="especie" name="especie"> *Especie </label>
+
+                        <select name="especies" id="especie">
+                            <option value="desconocida" selected> Desconocida </option>
+                            <option value="humana"> Humana </option>
+                            <option value="animal"> Animal </option>
+                            <option value="alien"> Alienígena </option>
+                            <option disabled selected> Especie </option>
+                        </select>
+                        <div class="foto">
+                            <label for="foto" name="foto"> Agregar Foto </label>
+                            <input type="file" name="foto" id="foto" accept="image/png, image/jpeg"> </div>
+                        <div>
+                            <label for="poderes" name="poderes"> *Poderes </label>
+                            <label><input type="checkbox" name="poderes" value="volar"> Volar</label>
+                            <label><input type="checkbox" name="poderes" value="inteligencia"> Superinteligencia</label>
+                            <label><input type="checkbox" name="poderes" value="vista"> Vista de rayo láser</label>
+                            <label><input type="checkbox" name="poderes" value="billetera"> Billetera gorda </label>
+                        </div>
+                        <hr>
+                        <div class="tipo">
+                            <label for="tipo" name="tipo"> *Tipo de personaje </label>
+                            <label><input type="radio" name="hero" id="hero" value="Hero"> Heroe/Heroina</label>
+                            <label><input type="radio" name="villain" id="villain" value="Villan">
+                                Villano/Villana</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="botonanadir">
+
+                    <button type="submit">Añadir</button>
+                </div>
+            </form>
+        </div>
+
+
+    </section>
+
+
+    <footer>
+        <div>Todos los derechos reservados a FRONT END 1</div>
+    </footer>
+</body>
+
+</html>

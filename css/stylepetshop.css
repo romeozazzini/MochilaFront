@@ -1,0 +1,578 @@
+/* Reseteo de página */
+*{ box-sizing:border-box ;
+    padding: 0px;
+    margin:0px;}
+
+/* ---------DESKTOP -----------*/
+
+
+/* ---------Header -----------*/
+header { width: 100vw;
+}
+/* Top Banner*/
+.top-banner { display: flex;
+    font-family: "Roboto";
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 12px;
+letter-spacing: 0em;
+color: #F3F3F3;
+background-color: #222222;
+align-items: center;
+justify-content: space-between;
+height: 30px
+}
+
+.top-banner p { 
+        font-family: "Roboto";
+       font-style: normal;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0em;
+    margin: 0px 0px 0px 50px;   
+}
+
+.top-banner nav { display: flex;
+        font-family: "Roboto";
+      font-style: normal;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0em;
+    position: relative;
+    right: 10vw
+    
+        
+}
+
+.top-banner nav ul{ display: flex;
+    width: 100px; 
+list-style: none;}
+
+.top-banner nav ul li img {
+    margin: 0px 15px 0px 3px 
+}
+/* Low Banner*/
+.low-banner { display: flex; 
+    color:#FFFFFF;
+    background-color: #F0A83E;
+    height: 93px;
+align-items: center;
+justify-content: space-between;
+        }
+
+.low-banner h2 {font-family: "Roboto";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0em;
+    margin: 0px 0px 0px 30px;
+        }
+
+.low-banner h2::before {
+           content: url('../img/Cat.png')
+    
+}
+.low-banner h2::after {
+    content: url('../img/Dog.png')
+}
+
+.low-banner h2 span {color:#3C2313}
+
+
+.low-banner ul { display: flex;
+list-style: none;
+margin: 0px 15px 0px 0px;
+
+}
+
+.low-banner ul li {
+    margin: 0px 20px ;
+    font-family: "Roboto";
+/* font-size: 20px; */
+font-style: normal;
+font-weight: 400;
+line-height: 15px;
+letter-spacing: 0em;
+}
+
+.low-banner ul li::before{
+    content: url('../img/paw.png')
+}
+
+
+.low-banner img { display: none}
+
+/* ---------MAIN BODY -----------*/
+
+/* Main Banner*/
+.main-banner {
+    font-family: "Roboto";
+    
+    color: #3C2313;
+    background-color: #FFFFFF;
+    background-image: url('../img/bowl.png');
+    height: 760px;
+    width: 100vw;
+    background-size: 100%;
+    display: flex;
+      align-items:center;
+   justify-content: center;
+
+}
+
+.main-banner div { display: flex;
+    flex-flow: column ;
+justify-content: center;
+align-items: center;
+margin: 0px 10px 0px 0px;
+
+}
+
+    section.main-banner h2 { 
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 35px;
+        letter-spacing: 0em;
+      background-color: #FFFFFF; 
+      width: 365px;
+height: 54px;
+border-radius: 5px;
+display: flex;
+align-items: center;
+justify-content: center;
+
+    }
+
+section.main-banner p {
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0em;
+    margin: 10px 0px}
+
+section.main-banner span {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    color:#FFFFFF;
+    background-color: #F0A83E;
+    border-radius: 5px;
+    width: 141px;
+    height: 49px;
+    display: flex;
+align-items: center;
+justify-content: center;
+    }
+
+/* Main*/
+.main {display: flex; 
+flex-flow: column;
+width: 100vw;
+
+/* Main Top*/
+}
+.topsection {  display: flex;
+    flex-flow: column;
+    align-items: center;
+    
+    margin: 20px 0px;
+}
+
+.topsection img {
+    height: 71px;
+    width: 67px;
+}
+
+.topsection h1 {
+    font-family: "Roboto";
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 47px;
+letter-spacing: 0em;
+color: #3C2313;
+margin: 0px 0px 10px 0px; 
+}
+
+.menu2 ul { display: flex;
+    list-style: none;
+}
+
+.menu2 ul li {
+    margin: 0px 8px;
+    font-family: "Roboto";
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0em;
+color: #666666;
+}
+
+/* Main Middle*/
+
+.main-middle {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px 0px 50px 0px; 
+    justify-content: space-around;
+}
+
+.main-middle div { display: flex;
+    flex-flow: column;
+    width: 265px;
+    background-color: #FBFAF6;
+    align-items: center;
+    }
+
+.main-middle img {width: 265px}
+
+.main-middle h3 {
+    font-family: "Roboto";
+font-size: 15px;
+font-style: normal;
+font-weight: 500;
+line-height: 18px;
+letter-spacing: 0em;
+color: #3C2313;
+}
+
+.main-middle h4 {font-family: "Roboto";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0em;
+    color: #F0A83E;
+}
+
+/* Main Bottom*/
+
+.main-bottom {display: flex;
+    flex-flow: column;
+    width: 100vw; 
+   
+    align-items: center;
+}
+
+.main-bottom h2 {
+    font-family: "Roboto";
+font-size: 25px;
+font-style: normal;
+font-weight: 700;
+line-height: 29px;
+letter-spacing: 0em;
+color: #3C2313;
+
+}
+
+
+.main-bottom div {
+    Display: flex;
+    font-family: "Roboto";
+font-size: 9px;
+font-style: normal;
+font-weight: 400;
+line-height: 11px;
+letter-spacing: 0em;
+color: #FFFFFF;
+background-color: #3C2313 ;
+width: 340px;
+height: 40px;
+align-items: center;
+margin: 10px;
+border-radius: 15px;
+padding: 0px 0px 0px 15px;
+}
+
+.main-bottom article { Display: flex;
+    margin: 0px 0px 35px 0px
+    
+}
+
+.main-bottom article span {
+    width: 110px;
+height: 34px;
+border-radius: 15px;
+font-family: "Roboto";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0em;
+color: #FFFFFF;
+margin: 10px 5px;
+
+}
+.reset { display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8A8787;
+}
+
+.send { display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F0A83E;
+}
+
+/* Footer*/
+
+/* Formulario*/
+.formulario { display: flex;
+    height: 60px;
+    width: 100vw; 
+    background-color: #F0A83E;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.formulario img { position: relative;
+    left: -30px
+}
+
+.formulario h5{font-family: "Roboto";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0em;
+    Color: #FFFFFF;
+    position: relative;
+    left: -110px
+    }
+
+.email { display: flex;
+    width: 271px;
+height: 40px;
+background-color: #FFFFFF;
+border-radius: 15px;
+font-family: "Roboto";
+font-size: 9px;
+font-style: normal;
+font-weight: 400;
+line-height: 11px;
+letter-spacing: 0em;
+Color: #A0A0A0;
+align-items: center;
+padding: 0px 10px;
+}
+
+.suscribirme {display: flex;
+    width: 70px;
+height: 34px;
+background-color: #3C2313;
+border-radius: 15px;
+font-family: "Roboto";
+font-size: 9px;
+font-style: normal;
+font-weight: 700;
+line-height: 11px;
+letter-spacing: 0em;
+color: #FFFFFF;
+align-items: center;
+justify-content: center;
+}
+
+
+/* Footer Middle*/
+
+.footer-middle {
+    display: flex;
+    width: 100vw; 
+height: 284px;
+background-color: #3C2313;
+align-items: center;
+justify-content: flex-start;
+}
+
+.footer-middle div {
+    display: flex;
+    flex-flow: column;
+    position: relative;
+    left: 40px;
+}
+
+.footer-middle div img {
+    height: 66px;
+    width: 179px;
+    margin: 10px;
+}
+
+#correo {height: 66px;
+width: 259px;}
+
+.footer-middle h2 {
+    position: relative;
+    left: 60vw;
+    font-family: 'Roboto';
+    font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: 23px;
+color: #F0A83E;
+}
+.footer-middle h2 span {
+    color: #FFFFFF;
+}
+
+.footer-middle h2::before {
+    content: url('../img/Cat.png')
+}
+
+.footer-middle h2::after {
+    content: url('../img/Dog.png')
+}
+
+/* Footer Bottom*/
+
+.footer-bottom { display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw; 
+height: 40px;
+background-color: #222222;
+color: #FFFFFF;
+font-family: "Roboto";
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 12px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+/* ---------MOBILE -----------*/
+@media (max-width:480px) and (orientation: portrait) {
+
+
+    /* ---------Header -----------*/
+    header {width: 100vw;}
+
+    .top-banner { display: none;}
+    .low-banner ul {display: none;}
+
+    .low-banner img { display: flex;
+    position: relative;
+right: 10%}
+    .low-banner h2 {font-size:1.5rem}    
+
+
+ /* ---------Body -----------*/
+/* Main Banner*/
+.main-banner {width: 100vw;
+background-repeat: no-repeat;
+background-size: cover;
+height: 400px;
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.main-banner div {
+    position: relative;
+    left: 0px;
+    top: 0px;
+    
+}
+
+.main-banner div h2 {
+    width: 80vw;
+    font-size: 1.4rem;
+   
+} 
+
+.main-banner div p { font-weight: bold;
+    position: relative;
+    left: 5rem;
+}
+
+.main-banner div span {
+    position: relative;
+    left: 5rem;
+}
+
+
+.topsection h1 {
+    text-align: center;
+    width: 15rem;
+  
+}
+
+
+.main-bottom h2 {
+    font-size: 2rem
+}
+
+
+.box {
+    margin: 30px 0px
+}
+
+.main-bottom .reset, .main-bottom .send {
+    width: 10rem;
+  }
+
+
+/* <!-- Footer --> */
+
+.formulario {
+    height: 100px;
+    padding: 0px 0px 10px 0px ;
+    
+    flex-wrap: wrap;
+    }
+
+.formulario img {
+    left: -5px;
+}
+.formulario h5 {
+    left: -15px;
+}
+.email { position: relative;
+    left: 0px;
+}
+
+.suscribirme {position: relative;
+    left: -12px;
+    font-size: 1rem;
+    width: 8rem
+
+}
+.footer-middle {
+    
+    height: 330px;
+    padding: 50px 0px 0px 0px;
+    flex-flow: column;
+    align-items: center;
+}
+
+.footer-middle h2{ left: 0px;
+    order:1;
+    margin: -25px 0px 20px 0px; 
+    font-size: 1.2rem
+ }
+
+.footer-middle div { 
+    align-self: flex-start;
+    position:relative;
+    left: 6rem;
+    order:2}
+
+.footer-bottom {
+   font-size: 1rem; 
+height: 20px ;
+font-weight: normal}
+
+}
+
+

@@ -1,0 +1,334 @@
+*{ box-sizing: border-box;
+padding: 0px;
+margin: 0px;
+font-family: 'Roboto';}
+
+/* -------MOBILE------- */
+/* -------Header------- */
+
+.topbanner {
+    display:flex;
+    height: 90px;
+    width: 100vw;
+    background-color: #222222;
+    align-items: center;
+
+}
+
+.Logo {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    left: 3%;
+
+}
+
+
+h1 {
+    color: #F3F3F3;
+    font-weight: 700;
+    font-size: 30px;
+    position: relative;
+    left: 4%;
+}
+h1 span {
+    font-weight: 300;
+    color: #D01418;
+   
+}
+
+
+.stackmenu {width: 27px;
+    height: 27px;
+    position: relative;
+    left: 30%;}
+
+.menu , .cart { visibility: hidden;
+
+}
+
+
+
+
+.lowbanner { display: flex;
+    flex-flow:column ;
+    height: 512px;
+    width: 100vw;
+    background-image: url('../img/fondolowbanner.png');
+    justify-content: space-around;
+    align-items: center;
+}
+.lowbanner h2 {
+    color: #F3F3F3;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0px 0px -80px 0px
+}
+
+.lowbanner h2 span{color: #D01418}
+
+.lowbanner div{ width: 12rem ;
+    height: 61px;   
+    background-color:#D01418;
+    border-radius: 5px;
+  display: flex;
+justify-content: center;
+align-items: center;
+margin: -40px 0px 0px 0px
+} 
+
+.lowbanner div p { color: #F3F3F3;
+    font-size: 25px;
+    font-weight: 500;
+
+}
+
+/* -------Main------- */
+main { display: flex;
+    flex-flow: column ;
+    align-items: center;
+    width: 100vw;
+    background-color:  #F3F3F3;
+}
+
+.destacados {
+    width: 100vw;
+    display:flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 0px 20px 0px 
+}
+
+main h2 {
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px;
+    color: #000000
+}
+
+.destacados article {
+    Height:322px;
+    width: 64vw;
+    background-color: #FFFFFF;
+    margin: 25px 0px;
+}
+
+.portada { height:223px;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info { Display: flex;
+    flex-flow:column;
+    height: 99px;
+    justify-content: center;
+    padding: 0px 0px 0px 15px
+}
+
+.precio {
+    font-size: 20px;
+    font-weight: 400;
+    color: #000000
+}
+
+.cuotas {
+    font-size: 13px;
+    font-weight: 400;
+    color: #000000
+}
+.envio {
+    font-size: 10px;
+    font-weight: 400;
+    color: #619D00
+}
+
+.estrellas {Display: flex;
+    flex-flow:column;
+    width: 100vw;
+    align-items: center;
+}
+
+.estrellas h2 {
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px;
+    color: #000000
+   
+    }
+
+.estrellas article {
+    height: 108px;
+    width: 288.58px;
+    margin: 15px 0px 30px 0px
+}
+.sillas {
+    background-image: url('../img/sillas.png');
+    }
+
+.compus {
+    background-image: url('../img/computadoras.png');
+}
+
+.estrellas article {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.estrellas article h3{
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+color: #F3F3F3;
+position: relative;
+left: 25%
+}
+
+/* -------Footer------- */
+
+.redes {
+    height: 191px;
+    width: 100vw;
+    background-color: #222222;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo2 { display:flex; 
+    flex-flow:row;
+    }
+
+.redes2 h2 {
+font-size: 25px;
+font-style: normal;
+font-weight: 400;
+line-height: 29px;
+color: #F3F3F3;
+margin: 20px 0px;
+
+}
+
+.redes2 { display: flex;
+    flex-wrap: wrap;
+    width: 50vw;
+    justify-content: space-between;
+}
+
+.logos {display:flex; 
+    flex-flow:row;
+    
+}
+
+
+.derechos { 
+    height: 25px;
+    width: 100vw;
+    background-color: #C4C4C4;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.derechos p {
+    
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+line-height: 12px;
+
+}
+
+/* -------DESKTOP------- */
+@media (min-width:768px) {
+
+/* -------Header------- */
+.topbanner {
+   width: 100vw
+}
+.stackmenu{visibility: hidden;
+
+}
+
+.menu , .cart  { visibility: visible;
+
+}
+
+.menu { position: relative;
+    left: 65vw
+}
+
+.cart { position: relative;
+    left: 68vw
+
+}
+
+.menu ul li {display: inline;   
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 19px;
+    color: #F3F3F3;
+    margin: 0px 5px;
+ 
+    }
+.lowbanner {background-image: url('../img/fondolowbannerwide.png');
+    width: 100vw;
+    background-repeat:initial ;
+}
+
+/* -------Main------- */
+
+main {  width: 100vw}
+
+main h2 {
+    margin: 15px 0px;
+}
+.destacados article{
+    max-width: 16rem;
+    margin: 10px 25px;
+}
+
+.destacados {
+    flex-flow:row;
+}
+
+.estrellas div { display: flex;
+    flex-flow:row;
+
+}
+.estrellas div article {
+    margin: 25px 35px;
+}
+
+
+
+
+
+/* -------Footer------- */
+
+
+.redes , .derechos {
+    width: 100vw
+}
+
+.redes { flex-flow: row;
+justify-content: space-between;}
+
+.redes2 { max-width: 11rem ;
+    position:relative;
+    right: 5%
+
+}
+.logo2 {
+    position:relative;
+    left: 5%
+}
+
+}
